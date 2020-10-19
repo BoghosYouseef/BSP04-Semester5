@@ -1,0 +1,42 @@
+alloc 5
+loadc 0
+storea 4
+
+
+loadc 3
+storea 0
+pop
+loadc 1
+storea 1
+pop
+
+loadc 3
+storea 2
+pop
+
+A:
+	loada 0
+	loada 1
+	mul
+
+	storea 3
+	pop
+	loada 2
+	loada 3 
+	add
+	storea 1
+	pop
+	
+	loada 4
+	loadc 1
+	add
+	storea 4
+	pop
+	
+	loada 4
+	loadc 81
+	eq
+	JUMPZ A
+	
+B: 
+	Halt
