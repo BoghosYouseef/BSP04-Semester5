@@ -24,15 +24,3 @@ def recursive_like_func(A, x , term_num):
     return recursive_like_func(A,((A*x)+constant), term_num)   #otherwise returns the same function call but with a different input for x.
 
 print(recursive_like_func(3,1, 4))
-# def test_func(a, b, c):
-#     global iteration
-#     if iteration == 10:
-#         return 0
-#     else:
-#
-#         iteration += 1
-#
-#     print(f"a^{iteration}={a**iteration}, b={b}, c={c}, a*b+c = {(a*b)+c}")
-#     return test_func(a, (a*b)+c, c)
-#
-# print(test_func(3, 1, 3))
