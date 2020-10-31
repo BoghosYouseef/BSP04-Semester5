@@ -12,6 +12,20 @@ The project contains 3 files:
 2-DynamicSystem.cma
 3-recursive_dynamic_system.m
 
+/////////////////////////////////////////////////////////
+
+Dependencies:
+	-----{scratch.py}-----
+Required environment to activate and run this program is any environment that supports python (.py) files
+--------------------------------------------------
+	-----{DynamicSystem.cma}-----
+Required environment to activate and run this program is contained in a zip file named vam.zip
+Unzip and run the file vam.bat for Windows. Run java.sh  for Linux.
+----------------------------------------------------
+	-----{recursive_dynamic_system.m}-----
+Required environment to activate and run this program is matlab environment provided by mathworks.
+
+/////////////////////////////////////////////////////////
 
 The goal of the project is to implement a dynamic system
 
