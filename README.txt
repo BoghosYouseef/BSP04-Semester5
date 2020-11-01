@@ -20,7 +20,14 @@ Required environment to activate and run this program is any environment that su
 --------------------------------------------------
 	-----{DynamicSystem.cma}-----
 Required environment to activate and run this program is contained in a zip file named vam.zip
-Unzip and run the file vam.bat for Windows. Run java.sh  for Linux.
+Unzip and run the file vam.bat for Windows. Run vam.sh  for Linux.
+steps to run:
+	1- run the vam.bat or vam.sh.
+	2- click on "Program" button at the top left corner.
+	3- choose the DynamicSystem.cma to be opened.
+	4- after the program is loaded click "Run" button, next to the "Program" button in the top left corner.
+
+now the animation showing how the program is working should start.
 ----------------------------------------------------
 	-----{recursive_dynamic_system.m}-----
 Required environment to activate and run this program is matlab environment provided by mathworks.
